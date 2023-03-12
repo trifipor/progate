@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "metro-regular";
+    src: url('Metropolis-Regular.otf');
+}
+
+@font-face {
+    font-family: "metro-bold";
+    src: url('Metropolis-Bold.otf');
+}
+
+@font-face {
+    font-family: "metro-thin";
+    src: url('Metropolis-Thin.otf');
+}
+
+
+
+body {
+    font-family: "metro-regular";
+}
+
+/* navbar */
+
+
+
+nav {
+    display: flex;
+    background-color: #404146;
+    justify-content: flex-start;
+    /* padding: 20px 0; */
+    height: 91px;
+    align-items: center;
+    color: white;
+    
+}
+
+nav .logo {
+    font-family: "metro-bold";
+    letter-spacing: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-evenly;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav .menu-toogle i {
+    display: none;
+}
+
+
+/* heading */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#404146;
+    margin-top: 120px;
+}
+
+div h1 {
+    font-family: "metro-bold";
+    font-size: 150px;
+}
+
+div h1 span {
+    color: #F1D00E;
+}
+
+.container p {
+    font-family: "metro-thin";
+    font-size: 60px;
+}
+
+div .gambar img {
+    width: 300px;
+    height: 300px;
+}
+
+/* content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F4F4F4;
+    height: 420px;
+}
+
+.container h2 {
+    font-family: "metro-bold";
+    font-size: 30px;
+}
+
+.content p {
+    padding-top: 40px;
+    font-family: "metro-regular";
+    font-size: 19px;
+    width: 80%;
+}
+
+
+/* article */
+
+.container .projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.article h2 {
+    padding-bottom: 40px;
+}
+
+.project img {
+    width: 326px;
+    height: 298px;
+}
+
+.project p {
+    padding-top: 45px;
+    font-family: "metro-regular";
+    font-size: 23px;
+    text-align: center;
+}
+
+
+/* contact */
+
+.contact h2 {
+    margin-bottom: 61px;
+}
+
+.container .contact {
+    display: flex;
+    background-color: #F4F4F4;
+    width: 100%;
+    justify-content: center;
+    height: 660px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 840px;
+}
+
+form input {
+    height: 60px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 13px;
+    margin-bottom: 41px;
+    font-family: "metro-regular";
+}
+
+form textarea {
+    font-size: 18px;
+    border: none;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-top: 24px;
+    height: 90px;
+    width: 100%;
+    margin-bottom: 41px;
+    font-family: "metro-regular";
+}
+
+form button {
+    font-size: 18px;
+    border: none;
+    border-radius: 13px;
+    width: 60%;
+    height: 65px;
+    background-color: #F7E989;
+    font-family: "metro-regular";
+}
+
+
+/* footer */
+
+.containers footer {
+    display: flex;
+    background-color: #7C7D82;
+    width: 100%;
+    height: 142px;
+    justify-content: space-between;
+    padding-top: 46px;
+    color: white;
+}
+
+.containers h3 {
+    font-family: "metro-bold";
+    letter-spacing: 10px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+
+.containers ul {
+    padding-right: 40px;
+    
+}
+
+footer ul li {
+    list-style: none;
+    padding-bottom: 26px;
+}
+
+/* Breakpoint */
+
+/* Tablet */
+

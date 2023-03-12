@@ -1,0 +1,72 @@
+/* Tablet */
+
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .project p {
+        padding-bottom: 50px;
+    }
+    
+    nav ul {
+        width: 50%;
+    }
+    
+    .contact form {
+        width:80%
+    }
+}
+
+
+
+/* Mobile */
+
+    
+@media screen and (max-width: 576px) {
+        
+    nav ul {
+        display: none;
+    }
+    
+    nav .menu-toogle {
+        display: flex;
+    
+    }
+    
+    nav .menu-toogle i{
+        display: block;
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+        top: 37px;
+        right: 15px;
+    
+    }
+
+    .container h1 {
+        font-size: 7rem;
+    }
+
+    .container p {
+        font-size: 2rem;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .projects p {
+        font-size: 1.3rem;
+    }
+    
+    
+    
+}
+
+
